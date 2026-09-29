@@ -160,7 +160,7 @@ export default function TyreReplacementAtHomeBristolPage() {
         <section className="relative overflow-hidden bg-zinc-950 text-zinc-50">
           <div className="absolute inset-0">
             <Image
-              src="/tyre-replacement-at-home-technician-bristol.webp"
+              src="/home-tyre-replacement-driveway-hero-alternative.webp"
               alt=""
               fill
               sizes="100vw"
@@ -245,6 +245,45 @@ export default function TyreReplacementAtHomeBristolPage() {
         />
 
         <StepList steps={steps} />
+
+        {/* Photo showcase */}
+        <section className="bg-white py-20 sm:py-28">
+          <div className="mx-auto max-w-7xl px-6 sm:px-10">
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
+                See the difference
+              </p>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
+                Worn Tyres Replaced, Right at Your Door
+              </h2>
+              <p className="mt-4 text-zinc-600">
+                Your new tyres arrive on the van and are fitted on your driveway — no need to
+                drop the car off or arrange your own transport in the meantime.
+              </p>
+            </div>
+
+            <div className="mt-14 grid gap-6 sm:grid-cols-2">
+              <div className="relative aspect-video overflow-hidden rounded-2xl border border-zinc-200">
+                <Image
+                  src="/worn-tyre-vs-new-home-replacement.webp"
+                  alt="A worn tyre next to a new replacement tyre on a home driveway"
+                  fill
+                  sizes="(min-width: 640px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative aspect-video overflow-hidden rounded-2xl border border-zinc-200">
+                <Image
+                  src="/new-tyres-delivered-to-home-driveway.webp"
+                  alt="Rapid Mobile Tyres technician bringing new tyres from the van to a car on a driveway"
+                  fill
+                  sizes="(min-width: 640px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
 
         <FeatureGrid
           eyebrow="Why choose us"
