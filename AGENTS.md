@@ -52,3 +52,29 @@ This version has breaking changes — APIs, conventions, and file structure may 
 14. `<Faq items={faqs} />`
 15. Final CTA (`bg-zinc-900`, `opacity-20` image overlay)
 <!-- END:location-page-design-reference -->
+
+<!-- BEGIN:service-page-hero-design-reference -->
+# Service Page Hero Design Reference — LOCKED
+
+**When writing or updating the hero section of any service page** (mobile car/van/SUV tyre fitting, tyre replacement at home, emergency tyre fitting, and similar — as opposed to location pages, which follow the Chelvey reference above), **you MUST use the hero in `src/app/mobile-car-tyre-fitting-bristol/page.tsx` as the design reference.** Do not use a full-bleed dimmed-background hero for these pages — use the split two-column "hero card" layout described below.
+
+## Hero Design Tokens (copy exactly)
+
+| Element | Correct value |
+|---|---|
+| Hero section wrapper | `relative overflow-hidden bg-zinc-950 text-zinc-50` |
+| Glow accents | two `aria-hidden` blurred circles: `absolute -top-40 -right-40 h-96 w-96 rounded-full bg-orange-600/20 blur-3xl` and `absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-red-600/20 blur-3xl` |
+| Content grid | `relative mx-auto grid max-w-7xl gap-12 px-6 py-20 sm:px-10 lg:grid-cols-2 lg:items-center lg:py-28` |
+| Eyebrow badge | `mb-4 inline-flex items-center rounded-full border border-orange-500/40 bg-orange-500/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.15em] text-orange-500`, text pattern `24/7 Mobile <Service> Fitting` |
+| H1 | `text-4xl font-bold tracking-tight text-balance sm:text-5xl`, pattern `Mobile <Service> Fitting in Bristol` |
+| Bold tagline line | `mt-3 text-lg font-medium text-zinc-200` — one short sentence stating the core promise (e.g. arrival time) |
+| Body paragraph | `mt-4 max-w-xl leading-7 text-zinc-400`, with `text-orange-400 underline underline-offset-2 hover:text-orange-300` internal links |
+| Benefits checklist | `mt-8 grid gap-3 sm:grid-cols-2`, each item `flex items-start gap-2 text-sm text-zinc-300` with an orange check SVG (`mt-0.5 h-4 w-4 shrink-0 text-orange-500`) — 4 short, accurate, non-fabricated claims about the service |
+| Primary button | `flex h-12 items-center justify-center gap-2 rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500`, text pattern `Emergency Call: {phone}` |
+| Secondary button | `flex h-12 items-center justify-center rounded-full border border-zinc-700 px-6 text-sm font-semibold text-zinc-200 transition-colors hover:border-zinc-500 hover:bg-zinc-900`, text `Book Online` |
+| Hours pill | `mt-6 inline-flex items-center rounded-full border border-zinc-700 bg-zinc-900/60 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-orange-400`, text `Monday–Sunday: 24 Hours` |
+| Hero image card | `relative mx-auto w-full max-w-lg` wrapping `relative overflow-hidden rounded-3xl border border-zinc-800 shadow-2xl` around the `<Image>` (`h-auto w-full`, real `width`/`height`, `preload`) |
+| Floating arrival badge | `absolute -bottom-6 -left-6 hidden rounded-2xl border border-zinc-800 bg-zinc-900 px-6 py-4 shadow-xl sm:block`, value `text-2xl font-bold text-orange-500` (`45-60 min`), label `text-xs text-zinc-400` (`Average arrival time`) |
+
+Below the hero, each service page keeps its own existing section order and content (stats strip, feature grids, steps, FAQs, etc.) — only the hero markup/styling is locked to this reference.
+<!-- END:service-page-hero-design-reference -->
