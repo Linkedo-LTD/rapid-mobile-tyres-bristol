@@ -101,11 +101,14 @@ const blogSlugs = [
 // route doesn't try to generate a duplicate static path for them.
 const dedicatedBlogSlugs = new Set([
   "mobile-tyre-fitting-in-the-uk-trends-and-insights",
+  "understanding-the-costs-of-mobile-tyre-fitting-services",
 ]);
 
 const blogImages: Record<string, string> = {
   "mobile-tyre-fitting-in-the-uk-trends-and-insights":
     "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
+  "understanding-the-costs-of-mobile-tyre-fitting-services":
+    "/mobile-tyre-fitting-technician-bristol.webp",
 };
 
 export const blogPosts: StubPage[] = blogSlugs.map((s) => ({
