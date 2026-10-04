@@ -107,6 +107,7 @@ const dedicatedBlogSlugs = new Set([
   "fleet-management-solutions-keeping-your-business-rolling-with-rapid-mobile-tyres",
   "what-to-do-when-you-get-a-flat-tyre-in-bristol-step-by-step-guide",
   "what-to-do-if-your-car-wont-start-a-step-by-step-jump-start-guide-for-drivers-in-the-uk",
+  "the-dangers-of-worn-tyres-dont-compromise-your-safety-call-rapid-mobile-tyres",
 ]);
 
 const blogImages: Record<string, string> = {
@@ -124,6 +125,8 @@ const blogImages: Record<string, string> = {
     "/damaged-tyre-sidewall-emergency-inspection.webp",
   "what-to-do-if-your-car-wont-start-a-step-by-step-jump-start-guide-for-drivers-in-the-uk":
     "/car-battery-inspection-before-jump-start.webp",
+  "the-dangers-of-worn-tyres-dont-compromise-your-safety-call-rapid-mobile-tyres":
+    "/mobile-tyre-tread-depth-inspection.webp",
 };
 
 export const blogPosts: StubPage[] = blogSlugs.map((s) => ({
