@@ -174,7 +174,7 @@ export default function GloucestershirePage() {
         <section className="relative bg-zinc-900 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/mobile-tyre-fitting-technician-bristol.webp"
+              src="/mobile-tyre-fitting-gloucestershire-hero-v2.webp"
               alt=""
               fill
               sizes="100vw"
@@ -320,10 +320,10 @@ export default function GloucestershirePage() {
               <div className="relative">
                 <div className="overflow-hidden rounded-2xl">
                   <Image
-                    src="/mobile-tyre-fitting-technician-bristol.webp"
-                    alt="Mobile tyre fitting technician attending a callout in Gloucestershire"
-                    width={600}
-                    height={450}
+                    src="/punctured-tyre-gloucestershire.webp"
+                    alt="Close-up of a punctured tyre inspected by Rapid Mobile Tyres in Gloucestershire"
+                    width={1448}
+                    height={1086}
                     className="w-full object-cover"
                   />
                 </div>
@@ -497,7 +497,7 @@ export default function GloucestershirePage() {
         <section className="relative bg-zinc-900 py-20 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/van-tyre-fitting-road-service-bristol.webp"
+              src="/completed-tyre-service-gloucestershire.webp"
               alt=""
               fill
               sizes="100vw"
@@ -809,7 +809,7 @@ export default function GloucestershirePage() {
         <section className="relative bg-zinc-900 py-20 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/mobile-tyre-fitting-technician-bristol.webp"
+              src="/mobile-wheel-balancing-gloucestershire.webp"
               alt=""
               fill
               sizes="100vw"
