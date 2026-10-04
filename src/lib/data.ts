@@ -551,8 +551,7 @@ export const servicesFaqs = [
 ];
 
 export const aboutContent = {
-  heroImage:
-    "https://rapid-tyres.com/wp-content/uploads/2024/10/tire-gym-with-other-tires-background_782516-20981.jpg",
+  heroImage: "/about-mobile-tyre-service-bristol-hero.webp",
   tagline: "Stuck with a flat? We come to you — fast.",
   intro:
     "At Rapid Mobile Tyres Ltd, we specialise in fast, reliable tyre solutions for cars, SUVs, and vans. Our mobile services ensure convenience and quality, keeping you on the road safely and efficiently.",
@@ -569,10 +568,9 @@ export const aboutContent = {
       "At Rapid Mobile Tyres Ltd, we are a dedicated team of tyre specialists committed to delivering exceptional mobile tyre services. With years of experience in the industry, we have built a reputation for fast, reliable, and professional tyre solutions across the South West.",
       "Whether you need a tyre repair, replacement, or emergency assistance like a jump start or fuel delivery, our goal is to provide hassle-free, on-the-spot services to keep you moving safely. Customer satisfaction and convenience are at the heart of everything we do.",
     ],
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/10/vecteezy_3d-isolated-mechanic-in-grey-wearpack_10175628-1.png",
-    imageWidth: 800,
-    imageHeight: 800,
+    image: "/mobile-tyre-fitting-van-interior.webp",
+    imageWidth: 1448,
+    imageHeight: 1086,
   },
 };
 
