@@ -104,6 +104,7 @@ const dedicatedBlogSlugs = new Set([
   "understanding-the-costs-of-mobile-tyre-fitting-services",
   "how-long-can-you-drive-on-a-spare-tyre-uk-safety-rules-explained",
   "the-future-of-tyre-services-innovations-and-how-rapid-mobile-tyres-stays-ahead",
+  "fleet-management-solutions-keeping-your-business-rolling-with-rapid-mobile-tyres",
 ]);
 
 const blogImages: Record<string, string> = {
@@ -115,6 +116,8 @@ const blogImages: Record<string, string> = {
     "/emergency-flat-car-tyre-roadside.webp",
   "the-future-of-tyre-services-innovations-and-how-rapid-mobile-tyres-stays-ahead":
     "/mobile-tyre-fitting-van-interior.webp",
+  "fleet-management-solutions-keeping-your-business-rolling-with-rapid-mobile-tyres":
+    "/mobile-van-tyre-wheel-replacement-technician.webp",
 };
 
 export const blogPosts: StubPage[] = blogSlugs.map((s) => ({
