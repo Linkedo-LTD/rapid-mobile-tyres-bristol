@@ -13,6 +13,7 @@ export interface StubPage {
   path: string;
   title: string;
   kind: StubKind;
+  image?: string;
 }
 
 const mainTowns = [
