@@ -105,6 +105,7 @@ const dedicatedBlogSlugs = new Set([
   "how-long-can-you-drive-on-a-spare-tyre-uk-safety-rules-explained",
   "the-future-of-tyre-services-innovations-and-how-rapid-mobile-tyres-stays-ahead",
   "fleet-management-solutions-keeping-your-business-rolling-with-rapid-mobile-tyres",
+  "what-to-do-when-you-get-a-flat-tyre-in-bristol-step-by-step-guide",
 ]);
 
 const blogImages: Record<string, string> = {
@@ -118,6 +119,8 @@ const blogImages: Record<string, string> = {
     "/mobile-tyre-fitting-van-interior.webp",
   "fleet-management-solutions-keeping-your-business-rolling-with-rapid-mobile-tyres":
     "/mobile-van-tyre-wheel-replacement-technician.webp",
+  "what-to-do-when-you-get-a-flat-tyre-in-bristol-step-by-step-guide":
+    "/damaged-tyre-sidewall-emergency-inspection.webp",
 };
 
 export const blogPosts: StubPage[] = blogSlugs.map((s) => ({
