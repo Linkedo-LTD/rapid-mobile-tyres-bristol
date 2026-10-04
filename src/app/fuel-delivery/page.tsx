@@ -66,10 +66,10 @@ export default function FuelDeliveryPage() {
             <div className="relative mx-auto w-full max-w-lg">
               <div className="relative overflow-hidden rounded-3xl border border-zinc-800 shadow-2xl">
                 <Image
-                  src="/emergency-fuel-delivery-service-bristol.webp"
+                  src="/emergency-fuel-delivery-bristol-hero.webp"
                   alt="Emergency fuel delivery technician refuelling a stranded vehicle in Bristol"
-                  width={740}
-                  height={531}
+                  width={1672}
+                  height={941}
                   className="h-auto w-full"
                   preload
                 />
@@ -83,6 +83,54 @@ export default function FuelDeliveryPage() {
         </section>
 
         <StepList steps={fuelDeliveryPage.steps} />
+
+        {/* Photo showcase */}
+        <section className="bg-zinc-50 py-20 sm:py-28">
+          <div className="mx-auto max-w-7xl px-6 sm:px-10">
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
+                What to expect
+              </p>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
+                Fully Equipped to Get You Moving Again
+              </h2>
+              <p className="mt-4 text-zinc-600">
+                Our vans carry everything needed to deliver fuel safely, wherever you&apos;ve
+                stopped.
+              </p>
+            </div>
+
+            <div className="mt-14 grid gap-6 sm:grid-cols-3">
+              <div className="relative aspect-video overflow-hidden rounded-2xl border border-zinc-200">
+                <Image
+                  src="/mobile-fuel-delivery-van-equipment.webp"
+                  alt="Fuel delivery equipment carried in the Rapid Mobile Tyres van"
+                  fill
+                  sizes="(min-width: 640px) 33vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative aspect-video overflow-hidden rounded-2xl border border-zinc-200">
+                <Image
+                  src="/roadside-fuel-delivery-arrival-bristol.webp"
+                  alt="Rapid Mobile Tyres technician arriving at a roadside fuel delivery call-out in Bristol"
+                  fill
+                  sizes="(min-width: 640px) 33vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative aspect-video overflow-hidden rounded-2xl border border-zinc-200">
+                <Image
+                  src="/driver-after-emergency-fuel-delivery.webp"
+                  alt="Driver back on the road after an emergency fuel delivery"
+                  fill
+                  sizes="(min-width: 640px) 33vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Why choose — large card layout */}
         <section className="bg-white py-20 sm:py-28">
