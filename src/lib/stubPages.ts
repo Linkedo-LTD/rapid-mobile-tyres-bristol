@@ -96,10 +96,23 @@ const blogSlugs = [
   "cheapest-tyres-in-bristol-2",
 ];
 
+// Slugs that now have a dedicated page under src/app/ with a real,
+// written article — excluded from allStubPages below so the catch-all
+// route doesn't try to generate a duplicate static path for them.
+const dedicatedBlogSlugs = new Set([
+  "mobile-tyre-fitting-in-the-uk-trends-and-insights",
+]);
+
+const blogImages: Record<string, string> = {
+  "mobile-tyre-fitting-in-the-uk-trends-and-insights":
+    "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
+};
+
 export const blogPosts: StubPage[] = blogSlugs.map((s) => ({
   path: s,
   title: titleCase(s),
   kind: "blog",
+  image: blogImages[s],
 }));
 
 export const categoryPages: StubPage[] = [
@@ -118,6 +131,7 @@ export const miscPages: StubPage[] = [
 // a dedicated page under src/app/, so the catch-all no longer needs to (and
 // must not, to avoid a duplicate-route build conflict) generate them.
 // categoryPages and miscPages are also excluded — they are not needed.
+// blog posts in dedicatedBlogSlugs are also excluded for the same reason.
 export const allStubPages: StubPage[] = [
-  ...blogPosts,
+  ...blogPosts.filter((p) => !dedicatedBlogSlugs.has(p.path)),
 ];
