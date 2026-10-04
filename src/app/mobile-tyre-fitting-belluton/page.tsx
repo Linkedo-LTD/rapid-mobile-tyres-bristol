@@ -166,7 +166,7 @@ export default function Page() {
         <section className="relative bg-zinc-900 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/mobile-tyre-fitting-technician-bristol.webp"
+              src="/mobile-tyre-fitting-belluton-hero.webp"
               alt=""
               fill
               sizes="100vw"
@@ -326,10 +326,10 @@ export default function Page() {
               <div className="relative">
                 <div className="overflow-hidden rounded-2xl">
                   <Image
-                    src="/mobile-tyre-fitting-technician-bristol.webp"
-                    alt="Mobile tyre fitting technician fitting a tyre at a customer's location"
-                    width={600}
-                    height={450}
+                    src="/tyre-tread-check-belluton.webp"
+                    alt="Rapid Mobile Tyres technician checking tyre tread depth in Belluton"
+                    width={1448}
+                    height={1086}
                     className="w-full object-cover"
                   />
                 </div>
@@ -507,7 +507,7 @@ export default function Page() {
         <section className="relative bg-zinc-900 py-20 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/van-tyre-fitting-road-service-bristol.webp"
+              src="/journey-after-tyre-fitting-belluton.webp"
               alt=""
               fill
               sizes="100vw"
