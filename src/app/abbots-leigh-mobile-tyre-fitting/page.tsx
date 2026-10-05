@@ -183,7 +183,7 @@ export default function Page() {
         <section className="relative bg-zinc-900 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/mobile-tyre-fitting-technician-bristol.webp"
+              src="/mobile-tyre-pressure-check-abbots-leigh.webp"
               alt=""
               fill
               sizes="100vw"
@@ -335,8 +335,8 @@ export default function Page() {
               <div className="relative">
                 <div className="overflow-hidden rounded-2xl">
                   <Image
-                    src="/mobile-tyre-fitting-technician-bristol.webp"
-                    alt="Mobile tyre fitting technician fitting a tyre at a customer's location"
+                    src="/driveway-wheel-replacement-abbots-leigh.webp"
+                    alt="Mobile tyre fitting technician replacing a wheel on a driveway in Abbots Leigh"
                     width={600}
                     height={450}
                     className="w-full object-cover"
@@ -514,7 +514,7 @@ export default function Page() {
         <section className="relative bg-zinc-900 py-20 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/van-tyre-fitting-road-service-bristol.webp"
+              src="/roadside-spare-tyre-fitting-abbots-leigh.webp"
               alt=""
               fill
               sizes="100vw"
@@ -886,7 +886,7 @@ export default function Page() {
         <section className="relative bg-zinc-900 py-20 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/mobile-tyre-fitting-technician-bristol.webp"
+              src="/country-road-tyre-fitting-abbots-leigh.webp"
               alt=""
               fill
               sizes="100vw"
