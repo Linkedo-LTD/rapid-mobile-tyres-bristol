@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Abbots Leigh | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Abbots Leigh and along the A369 towards Leigh Woods and Bristol. 24/7 tyre replacement at home, work or the roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/abbots-leigh-mobile-tyre-fitting",
+  },
 };
 
 const stats = [
