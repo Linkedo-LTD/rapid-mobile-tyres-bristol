@@ -110,6 +110,7 @@ const dedicatedBlogSlugs = new Set([
   "the-dangers-of-worn-tyres-dont-compromise-your-safety-call-rapid-mobile-tyres",
   "mobile-tyre-fitting-for-fleet-vehicles-efficiency-and-savings",
   "the-importance-of-regular-adas-calibration",
+  "what-you-need-to-know-about-your-cars-alternator",
 ]);
 
 const blogImages: Record<string, string> = {
@@ -133,6 +134,8 @@ const blogImages: Record<string, string> = {
     "/mobile-van-tyre-pressure-valve-check.webp",
   "the-importance-of-regular-adas-calibration":
     "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
+  "what-you-need-to-know-about-your-cars-alternator":
+    "/car-running-after-mobile-jump-start.webp",
 };
 
 export const blogPosts: StubPage[] = blogSlugs.map((s) => ({
