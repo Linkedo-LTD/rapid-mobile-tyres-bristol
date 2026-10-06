@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Brislington | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Brislington for flat or damaged tyres. Get tyre replacement brought directly to your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-brislington",
+  },
 };
 
 const stats = [

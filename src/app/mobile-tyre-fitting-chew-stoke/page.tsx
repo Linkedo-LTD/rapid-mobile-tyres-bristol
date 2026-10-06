@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chew Stoke | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Chew Stoke and the wider Chew Valley. 24/7 tyre replacement at home, on rural roads or at the roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-chew-stoke",
+  },
 };
 
 const stats = [

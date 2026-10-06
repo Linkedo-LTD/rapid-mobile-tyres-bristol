@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Car Jump Start Bristol | 24/7 Mobile Battery Assistance",
   description:
     "Need a car jump start in Bristol? Get 24/7 mobile battery assistance at home, work or a roadside location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/jumpstarts",
+  },
 };
 
 const stats = [

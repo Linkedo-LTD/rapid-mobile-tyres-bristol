@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Brockley | 24/7 Tyre Replacement",
   description:
     "Mobile tyre fitting in Brockley, along the A370 and the surrounding North Somerset villages. 24/7 tyre replacement at home, on the farm or at the roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-brockley",
+  },
 };
 
 const stats = [

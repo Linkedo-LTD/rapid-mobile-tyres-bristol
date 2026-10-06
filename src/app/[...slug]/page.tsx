@@ -30,9 +30,13 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string[] }>;
 }): Promise<Metadata> {
-  const page = findPage((await params).slug);
+  const slug = (await params).slug;
+  const page = findPage(slug);
   return {
     title: page ? `${page.title} - ${siteConfig.name}` : siteConfig.name,
+    alternates: {
+      canonical: `https://rapid-tyres.com/${slug.join("/")}`,
+    },
   };
 }
 

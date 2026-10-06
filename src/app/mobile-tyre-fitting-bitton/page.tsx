@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Bitton | 24/7 Tyre Replacement",
   description:
     "Mobile tyre fitting in Bitton for flat or damaged tyres. Get replacement tyres fitted at home, work or roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-bitton",
+  },
 };
 
 const stats = [

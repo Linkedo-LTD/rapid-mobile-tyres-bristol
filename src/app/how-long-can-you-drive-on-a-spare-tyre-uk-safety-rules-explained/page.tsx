@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "How Long Can You Drive on a Spare Tyre? UK Safety Rules",
   description:
     "Not sure how far or how fast you can drive on a spare tyre in the UK? Learn the speed limits, legal rules and safety tips, and when to call a mobile fitter.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/how-long-can-you-drive-on-a-spare-tyre-uk-safety-rules-explained",
+  },
 };
 
 const spareTypes = [

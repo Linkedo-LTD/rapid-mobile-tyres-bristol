@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Service | 24/7 Tyre Replacement",
   description:
     "Get 24/7 mobile tyre fitting for flat, worn or damaged tyres. Have replacement tyres fitted at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting",
+  },
 };
 
 const gallery = [

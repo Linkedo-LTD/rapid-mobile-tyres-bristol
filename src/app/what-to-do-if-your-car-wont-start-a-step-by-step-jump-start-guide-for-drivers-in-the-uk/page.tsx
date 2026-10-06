@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Car Won't Start? Step-by-Step Jump Start Guide (UK Drivers)",
   description:
     "Car won't start? Follow our step-by-step UK jump start guide, learn the safety rules and warning signs, and find out when to call a 24/7 jump start service.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/what-to-do-if-your-car-wont-start-a-step-by-step-jump-start-guide-for-drivers-in-the-uk",
+  },
 };
 
 const flatBatterySigns = [

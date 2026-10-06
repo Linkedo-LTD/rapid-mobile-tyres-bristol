@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chewton Keynsham | 24/7 Service",
   description:
     "Mobile tyre fitting in Chewton Keynsham for flat or damaged tyres. Get tyre assistance directly at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-chewton-keynsham",
+  },
 };
 
 const stats = [

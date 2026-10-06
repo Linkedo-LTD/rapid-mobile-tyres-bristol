@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Gloucestershire | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Gloucestershire for flat or damaged tyres. Get tyre assistance at your chosen location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-gloucestershire",
+  },
 };
 
 const stats = [

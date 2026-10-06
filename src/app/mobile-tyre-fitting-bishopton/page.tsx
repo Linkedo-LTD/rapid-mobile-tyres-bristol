@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Bishopton | 24/7 Tyre Replacement",
   description:
     "Need mobile tyre fitting in Bishopton? Get flat or damaged tyres replaced at home, work or a roadside location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-bishopton",
+  },
 };
 
 const stats = [

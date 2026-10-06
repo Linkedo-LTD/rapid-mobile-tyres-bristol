@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Avonmouth | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Avonmouth for cars and vans. Get flat or damaged tyres replaced at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-avonmouth",
+  },
 };
 
 const stats = [

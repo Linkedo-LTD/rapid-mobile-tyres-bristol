@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting in the UK: Trends and Insights",
   description:
     "A look at how mobile tyre fitting is growing across the UK — the trends driving demand, what customers expect, and where the industry is heading.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-in-the-uk-trends-and-insights",
+  },
 };
 
 const sections = [

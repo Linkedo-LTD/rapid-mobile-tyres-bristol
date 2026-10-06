@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Costs Explained | Rapid Mobile Tyres",
   description:
     "Wondering how much mobile tyre fitting costs? See what affects the price, how it compares to a garage, and how to get a fair quote in Bristol.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/understanding-the-costs-of-mobile-tyre-fitting-services",
+  },
 };
 
 const factors = [

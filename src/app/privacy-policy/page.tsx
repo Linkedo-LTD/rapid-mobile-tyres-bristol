@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     "Read how Rapid Mobile Tyres collects, uses and protects personal information when you use our website and services.",
   robots: { index: false, follow: true },
+  alternates: {
+    canonical: "https://rapid-tyres.com/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

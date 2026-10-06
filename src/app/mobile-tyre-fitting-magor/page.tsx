@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Magor | 24/7 Tyre Replacement",
   description:
     "Need mobile tyre fitting in Magor? Get flat or damaged tyres replaced at your home, workplace or roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-magor",
+  },
 };
 
 const stats = [

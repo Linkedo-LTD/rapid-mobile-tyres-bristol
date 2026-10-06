@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chepstow | 24/7 Tyre Assistance",
   description:
     "Mobile tyre fitting in Chepstow for flat or damaged tyres. Get convenient tyre replacement at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-chepstow",
+  },
 };
 
 const stats = [

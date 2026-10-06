@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "The Importance of Regular ADAS Calibration | Rapid Mobile Tyres",
   description:
     "Learn what ADAS calibration is, when your car needs it, and how tyres and wheel alignment can affect driver assistance systems. Keep your car's safety tech accurate.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/the-importance-of-regular-adas-calibration",
+  },
 };
 
 const adasFeatures = [

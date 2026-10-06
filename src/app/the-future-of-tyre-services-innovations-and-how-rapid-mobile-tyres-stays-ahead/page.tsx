@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Future of Tyre Services: Innovations & Mobile Fitting Trends",
   description:
     "Discover the innovations shaping tyre services, from smart tyres and EV demand to mobile fitting, and how Rapid Mobile Tyres keeps Bristol drivers moving.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/the-future-of-tyre-services-innovations-and-how-rapid-mobile-tyres-stays-ahead",
+  },
 };
 
 const trends = [

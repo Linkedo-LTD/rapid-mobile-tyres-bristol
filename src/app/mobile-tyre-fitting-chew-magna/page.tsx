@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chew Magna | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Chew Magna for flat or damaged tyres. Get convenient tyre assistance at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-chew-magna",
+  },
 };
 
 const stats = [

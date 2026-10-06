@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Emergency Fuel Delivery Bristol | 24/7 Roadside Help",
   description:
     "Run out of fuel in Bristol? Get 24/7 emergency fuel delivery and roadside assistance directly to your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/fuel-delivery",
+  },
 };
 
 export default function FuelDeliveryPage() {

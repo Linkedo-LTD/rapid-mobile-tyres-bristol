@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Dangers of Worn Tyres: Don't Risk Your Safety | Rapid Mobile Tyres",
   description:
     "Worn tyres increase stopping distances and risk of skidding. Learn the UK legal tread limit, how to check your tyres and when to call a mobile fitter in Bristol.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/the-dangers-of-worn-tyres-dont-compromise-your-safety-call-rapid-mobile-tyres",
+  },
 };
 
 const treadAffects = [

@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Van Tyre Fitting Bristol | 24/7 Tyre Service",
   description:
     "Mobile van tyre fitting in Bristol for flat or damaged tyres. Get convenient tyre replacement at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-van-tyre-fitting-bristol",
+  },
 };
 
 const stats = [

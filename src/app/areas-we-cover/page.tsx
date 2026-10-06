@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Areas | Bristol & Nearby Locations",
   description:
     "Find mobile tyre fitting areas across Bristol and nearby locations. Check coverage and get tyre help near you.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/areas-we-cover",
+  },
 };
 
 export default function AreasWeCoverPage() {

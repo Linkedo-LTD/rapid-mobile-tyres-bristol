@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Contact Rapid Mobile Tyres | 24/7 Tyre Help Bristol",
   description:
     "Contact Rapid Mobile Tyres for 24/7 mobile tyre fitting in Bristol. Check tyre availability and get assistance.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/contact",
+  },
 };
 
 export default function ContactPage() {

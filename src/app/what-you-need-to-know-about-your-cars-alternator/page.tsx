@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Car Alternator Explained: Signs of Failure & What to Do",
   description:
     "What does an alternator do and how do you know if it's failing? Learn the warning signs, causes, how it differs from the battery, and what to do if you break down.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/what-you-need-to-know-about-your-cars-alternator",
+  },
 };
 
 const alternatorJobs = [

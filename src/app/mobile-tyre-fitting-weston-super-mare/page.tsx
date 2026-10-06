@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Weston-super-Mare | 24/7 Service",
   description:
     "Mobile tyre fitting in Weston-super-Mare for flat or damaged tyres. Get tyre replacement at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-weston-super-mare",
+  },
 };
 
 const stats = [
