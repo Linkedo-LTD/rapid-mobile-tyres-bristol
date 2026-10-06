@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chelvey | 24/7 Tyre Replacement",
   description:
     "Need mobile tyre fitting in Chelvey? Get tyre assistance for flat or damaged tyres at home or roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-chelvey",
+  },
 };
 
 const stats = [

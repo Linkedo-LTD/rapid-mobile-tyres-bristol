@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Bishopsworth | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Bishopsworth and South Bristol. 24/7 tyre replacement brought directly to your home, workplace or roadside location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-bishopsworth",
+  },
 };
 
 const stats = [

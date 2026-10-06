@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Awkley | 24/7 Tyre Replacement",
   description:
     "Mobile tyre fitting in Awkley, Tockington and the surrounding South Gloucestershire countryside. 24/7 tyre replacement at home, on the farm or at the roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-awkley",
+  },
 };
 
 const stats = [

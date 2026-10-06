@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Brentry | 24/7 Tyre Replacement",
   description:
     "Need mobile tyre fitting in Brentry? Get flat or damaged tyres replaced at your home, workplace or roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-brentry",
+  },
 };
 
 const stats = [

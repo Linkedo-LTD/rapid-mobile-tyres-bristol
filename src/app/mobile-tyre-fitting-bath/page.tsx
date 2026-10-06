@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Bath | 24/7 Tyre Replacement",
   description:
     "Need mobile tyre fitting in Bath? Get flat or damaged tyres replaced at your home, workplace or roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-bath",
+  },
 };
 
 const stats = [

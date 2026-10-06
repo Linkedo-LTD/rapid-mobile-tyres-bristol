@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Flat Tyre in Bristol? Step-by-Step Guide | Rapid Mobile Tyres",
   description:
     "Got a flat tyre in Bristol? Follow our step-by-step guide on staying safe, what to check, and when to call 24/7 emergency mobile tyre fitting for fast help.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/what-to-do-when-you-get-a-flat-tyre-in-bristol-step-by-step-guide",
+  },
 };
 
 const warningSigns = [

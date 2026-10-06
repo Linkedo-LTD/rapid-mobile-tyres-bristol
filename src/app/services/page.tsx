@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Services Bristol | 24/7 Tyre Assistance",
   description:
     "Explore mobile tyre services in Bristol for cars, vans and SUVs. Get tyre fitting and roadside help when needed.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/services",
+  },
 };
 
 const allServices = [

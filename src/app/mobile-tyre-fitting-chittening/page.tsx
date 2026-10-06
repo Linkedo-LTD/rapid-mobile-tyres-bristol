@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chittening | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Chittening for cars and vans. Get help with flat or damaged tyres directly at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-chittening",
+  },
 };
 
 const stats = [

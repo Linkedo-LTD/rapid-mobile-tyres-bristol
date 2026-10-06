@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Butcombe | 24/7 Tyre Assistance",
   description:
     "Mobile tyre fitting in Butcombe for flat or damaged tyres. Get convenient tyre assistance at home or roadside.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-butcombe",
+  },
 };
 
 const stats = [

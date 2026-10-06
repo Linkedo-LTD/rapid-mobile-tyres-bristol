@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "About Rapid Mobile Tyres | Mobile Tyre Fitters Bristol",
   description:
     "Learn about Rapid Mobile Tyres, providing 24/7 mobile tyre fitting and roadside tyre services across Bristol.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/about-us",
+  },
 };
 
 export default function AboutUsPage() {

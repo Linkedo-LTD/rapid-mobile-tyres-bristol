@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Tyre Replacement at Home Bristol | Mobile Tyre Fitting",
   description:
     "Get tyre replacement at home in Bristol for flat or worn tyres. Have suitable tyres fitted at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/tyre-replacement-at-home-bristol",
+  },
 };
 
 const stats = [

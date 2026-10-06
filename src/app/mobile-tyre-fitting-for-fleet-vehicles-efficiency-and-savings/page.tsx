@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting for Fleet Vehicles: Efficiency & Savings",
   description:
     "See how mobile tyre fitting cuts downtime and running costs for fleet vehicles. Learn how to calculate your savings, with 24/7 support from Rapid Mobile Tyres.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-for-fleet-vehicles-efficiency-and-savings",
+  },
 };
 
 const costComponents = [

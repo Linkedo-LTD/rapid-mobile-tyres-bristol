@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Belluton | 24/7 Tyre Replacement",
   description:
     "Mobile tyre fitting in Belluton for flat or damaged tyres. Get convenient tyre replacement directly at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-belluton",
+  },
 };
 
 const stats = [

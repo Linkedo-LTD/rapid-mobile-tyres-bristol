@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Bridgwater | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Bridgewater for flat or damaged tyres. Get convenient tyre replacement at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-bridgewater",
+  },
 };
 
 const stats = [

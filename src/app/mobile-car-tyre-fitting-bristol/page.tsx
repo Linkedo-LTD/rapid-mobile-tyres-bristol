@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Car Tyre Fitting Bristol | 24/7 Tyre Service",
   description:
     "Mobile car tyre fitting in Bristol for flat, worn or damaged tyres. Get replacement tyres fitted at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-car-tyre-fitting-bristol",
+  },
 };
 
 const stats = [

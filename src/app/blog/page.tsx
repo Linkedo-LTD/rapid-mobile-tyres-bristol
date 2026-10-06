@@ -9,6 +9,9 @@ import { blogPosts, categoryPages } from "@/lib/stubPages";
 export const metadata: Metadata = {
   title: "Blog - Rapid Mobile Tyres Bristol",
   description: "Tyre safety tips, cost guides, and news from Rapid Mobile Tyres Bristol.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/blog",
+  },
 };
 
 export default function BlogPage() {

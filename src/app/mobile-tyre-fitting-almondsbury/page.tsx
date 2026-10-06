@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Almondsbury | 24/7 Tyre Service",
   description:
     "Mobile tyre fitting in Almondsbury for flat or damaged tyres. Get convenient tyre help directly at your location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-almondsbury",
+  },
 };
 
 const stats = [

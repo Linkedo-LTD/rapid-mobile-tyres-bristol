@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Refund Policy - Rapid Mobile Tyres Bristol",
   description:
     "Read the Rapid Mobile Tyres refund policy and learn about the conditions that may apply to service refunds.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/refund-policy",
+  },
 };
 
 export default function RefundPolicyPage() {

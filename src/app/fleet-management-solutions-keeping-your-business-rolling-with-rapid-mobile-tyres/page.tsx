@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Fleet Tyre Management Solutions | Rapid Mobile Tyres Bristol",
   description:
     "Keep your vans and company vehicles on the road. Learn how fleet tyre management works and how mobile tyre fitting in Bristol cuts downtime and costs.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/fleet-management-solutions-keeping-your-business-rolling-with-rapid-mobile-tyres",
+  },
 };
 
 const whyTyresMatter = [

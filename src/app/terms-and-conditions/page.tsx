@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "Read the terms and conditions for using Rapid Mobile Tyres and requesting our mobile tyre and roadside services.",
   robots: { index: false, follow: true },
+  alternates: {
+    canonical: "https://rapid-tyres.com/terms-and-conditions",
+  },
 };
 
 export default function TermsAndConditionsPage() {

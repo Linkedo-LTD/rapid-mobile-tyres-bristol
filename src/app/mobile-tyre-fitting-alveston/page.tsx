@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Alveston | 24/7 Tyre Replacement",
   description:
     "Need mobile tyre fitting in Alveston? Get replacement tyres fitted at your home, workplace or roadside location.",
+  alternates: {
+    canonical: "https://rapid-tyres.com/mobile-tyre-fitting-alveston",
+  },
 };
 
 const stats = [
