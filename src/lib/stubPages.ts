@@ -111,6 +111,7 @@ const dedicatedBlogSlugs = new Set([
   "mobile-tyre-fitting-for-fleet-vehicles-efficiency-and-savings",
   "the-importance-of-regular-adas-calibration",
   "what-you-need-to-know-about-your-cars-alternator",
+  "safety-first-the-importance-of-timely-tyre-replacements",
 ]);
 
 const blogImages: Record<string, string> = {
@@ -136,6 +137,8 @@ const blogImages: Record<string, string> = {
     "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
   "what-you-need-to-know-about-your-cars-alternator":
     "/car-running-after-mobile-jump-start.webp",
+  "safety-first-the-importance-of-timely-tyre-replacements":
+    "/worn-cracked-tyre-tread-closeup.webp",
 };
 
 export const blogPosts: StubPage[] = blogSlugs.map((s) => ({
